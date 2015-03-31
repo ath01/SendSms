@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
         String language = data.getStringExtra("lang");
         switch (language) {
             case "russian":
-                txtLanguage.setText("Русский");
+                txtLanguage.setText("Русский.");
                 break;
             case "english":
                 txtLanguage.setText("Английский");
